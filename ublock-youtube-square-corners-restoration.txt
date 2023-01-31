@@ -1,0 +1,68 @@
+! Removes border radius from Home Page thumbnail
+youtube.com##ytd-thumbnail.ytd-rich-grid-media.style-scope > .ytd-thumbnail.style-scope.inline-block.yt-simple-endpoint:style(border-radius: 0px !important) 
+youtube.com##ytd-thumbnail.ytd-rich-grid-media.style-scope > .ytd-thumbnail[size="large"] a.ytd-thumbnail, ytd-thumbnail[size="large"]::before:style(border-radius: 0px !important) 
+youtube.com##ytd-ghost-grid-renderer[rounded-container] .rich-thumbnail.ytd-ghost-grid-renderer:style(border-radius: 0px !important) 
+
+! Removes border radius on Pop-out player
+youtube.com##ytd-video-preview:not([has-endorsement]) #inline-preview-player.ytp-rounded-inline-preview, ytd-video-preview:not([has-endorsement]) #inline-preview-player.ytp-rounded-inline-preview .html5-main-video:style(border-radius: 0px !important)
+youtube.com##ytd-video-preview[rounded-container] #video-preview-container.ytd-video-preview, ytd-video-preview[rounded-container] #player-container.ytd-video-preview, ytd-video-preview[rounded-container] #inline-preview-player.ytd-video-preview:style(border-radius: 0px !important)
+
+! Removes border radius from detected game and detected category (under description)
+youtube.com##ytd-rich-metadata-renderer[rounded]:style(border-radius: 0px !important)
+
+! Removes border radius from description section under video
+youtube.com##ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata:style(border-radius: 0px !important)
+
+! Removes border radius from smaller thumbnails under a video
+youtube.com##ytd-thumbnail[size="medium"] a.ytd-thumbnail, ytd-thumbnail[size="medium"]::before:style(border-radius: 0px !important) 
+
+! Removes border radius on search LEFT SIDE
+youtube.com##ytd-searchbox[desktop-searchbar-style="rounded_corner_borders_light_btn"] #container.ytd-searchbox, ytd-searchbox[desktop-searchbar-style="rounded_corner_autofocus"] #container.ytd-searchbox:style(border-radius: 0px !important) 
+
+! Removes border radius on search RIGHT SIDE
+youtube.com##ytd-searchbox[desktop-searchbar-style="rounded_corner_borders_light_btn"] #search-icon-legacy.ytd-searchbox, ytd-searchbox[desktop-searchbar-style="rounded_corner_autofocus"] #search-icon-legacy.ytd-searchbox:style(border-radius: 0px !important) 
+
+! Removes border radius on posts
+youtube.com##ytd-post-renderer[rounded-container]:style(border-radius: 0px !important)
+
+! Removes border radius on left side active menu button
+youtube.com##ytd-guide-entry-renderer[guide-refresh]:style(border-radius: 0px !important)
+
+! Removes border radius on left side HOVER menu button
+youtube.com##ytd-guide-entry-renderer[guide-refresh] #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:hover, ytd-guide-entry-renderer[guide-refresh] #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:focus:style(border-radius: 0px !important)
+
+! Removes border radius from Buttons under video
+youtube.com##.yt-spec-button-shape-next--size-m:style(border-radius: 0px !important)
+
+! Removes border radius on Like button under video LEFT SIDE
+youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-start:style(border-radius: 0px !important)
+
+! Removes border radius on Dislike button under video RIGHT SIDE
+youtube.com##.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-end:style(border-radius: 0px !important)
+
+! Removes border radius on search results
+youtube.com##ytd-thumbnail[size="large"] a.ytd-thumbnail, ytd-thumbnail[size="large"]::before:style(border-radius: 0px !important)
+
+! Removes border radius on outline after dismissing a video
+youtube.com##ytd-rich-grid-media[rounded-container] #dismissed.ytd-rich-grid-media:style(border-radius: 0px !important)
+
+! Removes border radius on pop-out menu (3 dots) under video thumbnail
+youtube.com##ytd-menu-popup-renderer[sheets-refresh]:style(border-radius: 0px !important)
+
+! Removes border radius around featured video on a channel's home page
+youtube.com##ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-renderer:style(border-radius: 0px !important)
+
+! Removes border radius on playlist video hover
+youtube.com##ytd-playlist-video-renderer[amsterdam]:style(border-radius: 0px !important)
+
+! Removes border radius on playlist thumbnail when viewing the playlist
+youtube.com##.image-wrapper.ytd-hero-playlist-thumbnail-renderer:style(border-radius: 0px !important)
+
+! Removes border radius on playlist thumbnail background shape when viewing the playlist
+youtube.com##.immersive-header-container.ytd-playlist-header-renderer:style(border-radius: 0px !important)
+
+! Removes border radius on playlist thumbnails on a channel's playlists page
+youtube.com##ytd-playlist-thumbnail[size="medium"] a.ytd-playlist-thumbnail, ytd-playlist-thumbnail[size="medium"]::before:style(border-radius: 0px !important)
+
+! Removes border radius on a playlist's list of videos on a video page
+youtube.com##ytd-playlist-panel-renderer[modern-panels]:not([within-miniplayer]) #container.ytd-playlist-panel-renderer:style(border-radius: 0px !important)
