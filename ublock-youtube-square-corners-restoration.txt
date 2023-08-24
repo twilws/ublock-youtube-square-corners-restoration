@@ -68,4 +68,4 @@ youtube.com##ytd-playlist-thumbnail[size="medium"] a.ytd-playlist-thumbnail, ytd
 youtube.com##ytd-playlist-panel-renderer[modern-panels]:not([within-miniplayer]) #container.ytd-playlist-panel-renderer:style(border-radius: 0px !important)
 
 ! Removes border radius on main player
-youtube.com##.ytd-player:style(border-radius: 0px !important)
+youtube.com##.ytd-player, #container.ytd-player:style(border-radius: 0px !important)
