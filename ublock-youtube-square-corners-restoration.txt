@@ -66,3 +66,6 @@ youtube.com##ytd-playlist-thumbnail[size="medium"] a.ytd-playlist-thumbnail, ytd
 
 ! Removes border radius on a playlist's list of videos on a video page
 youtube.com##ytd-playlist-panel-renderer[modern-panels]:not([within-miniplayer]) #container.ytd-playlist-panel-renderer:style(border-radius: 0px !important)
+
+! Removes border radius on main player
+ytd-watch-flexy[rounded-player-large]:not([fullscreen]):not([theater]) #ytd-player.ytd-watch-flexy { border-radius: 0px; }
