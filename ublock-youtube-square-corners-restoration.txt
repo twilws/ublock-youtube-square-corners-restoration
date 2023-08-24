@@ -11,7 +11,7 @@ youtube.com##ytd-video-preview[rounded-container] #video-preview-container.ytd-v
 youtube.com##ytd-rich-metadata-renderer[rounded]:style(border-radius: 0px !important)
 
 ! Removes border radius from description section under video
-youtube.com##ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata:style(border-radius: 0px !important)
+youtube.com##ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata #container.ytd-player:style(border-radius: 0px !important)
 
 ! Removes border radius from smaller thumbnails under a video
 youtube.com##ytd-thumbnail[size="medium"] a.ytd-thumbnail, ytd-thumbnail[size="medium"]::before:style(border-radius: 0px !important) 
@@ -66,6 +66,3 @@ youtube.com##ytd-playlist-thumbnail[size="medium"] a.ytd-playlist-thumbnail, ytd
 
 ! Removes border radius on a playlist's list of videos on a video page
 youtube.com##ytd-playlist-panel-renderer[modern-panels]:not([within-miniplayer]) #container.ytd-playlist-panel-renderer:style(border-radius: 0px !important)
-
-! Removes border radius on main player
-youtube.com##ytd-player, #container.ytd-player:style(border-radius: 0px !important)
